@@ -1,0 +1,179 @@
+{
+  "id": "messages-from-the-boundary-playtest",
+  "title": "Messages from the Boundary Playtest by Southern Realm Games",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Strange happenings are afoot…preview upcoming content from Southern Realm Games' third major release for Pathfinder 2nd Edition, Messages from the Boundary. Playtest the new cryptic class up to 10th level - including five subclasses and the full multiclass archetype! - and learn the uncanny secrets of 40+ new spells!</p>",
+  "authors": [
+    {
+      "name": "Obscura",
+      "flags": {}
+    },
+    {
+      "name": "DanTalksGames",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "messages-from-the-boundary-playtest": {
+      "pf2e-homebrew": {
+        "classTraits": {
+          "cryptic": {
+            "label": "Cryptic",
+            "description": "This indicates abilities from the cryptic class."
+          }
+        },
+        "featTraits": {
+          "cryptic": {
+            "label": "Cryptic",
+            "description": "This indicates abilities from the cryptic class."
+          },
+          "emergence": {
+            "label": "Emergence",
+            "description": "Abilities with the emergence trait have a standard action cost, requirement, and triggers associated with it, but can alternatively be used with different actions that let you emerge as part of using them. The action will state ‘you emerge’ as part of its rules text, and the emergence action you choose is treated as a subordinate action to that one. You ignore the emergence action’s standard action cost, triggers, and requirements, instead using those of the action that lets you emerge. You may only emerge once per round, which resets when you get all your actions back at the start of your turn. If an ability states that you emerge to a specific creature and the emergence action you wish to use requires you to target a creature or area, the creature you emerge to must be a target or included in the area of the effect. Likewise, they cannot be targeted or are unaffected from being in its area of effect if something explicitly states they cannot be emerged to (such as recognising your Passing Disguise)."
+          },
+          "obscured": {
+            "label": "Obscured",
+            "description": "Features and actions with the obscured trait only work against creatures you are obscured from. If the ability is an ongoing effect without an action, it always occurs when you’re obscured, and affects all creatures you are obscured from (including allies, if relevant). If it is an action, you may usually use the action regardless of whether the creature is obscured from you or not, but you do not get any benefits that require you to be obscured from them if you are not."
+          },
+          "traversal": "Traversal"
+        },
+        "spellTraits": {
+          "cryptic": {
+            "label": "Cryptic",
+            "description": "This indicates abilities from the cryptic class."
+          },
+          "emergence": {
+            "label": "Emergence",
+            "description": "Abilities with the emergence trait have a standard action cost, requirement, and triggers associated with it, but can alternatively be used with different actions that let you emerge as part of using them. The action will state ‘you emerge’ as part of its rules text, and the emergence action you choose is treated as a subordinate action to that one. You ignore the emergence action’s standard action cost, triggers, and requirements, instead using those of the action that lets you emerge. You may only emerge once per round, which resets when you get all your actions back at the start of your turn. If an ability states that you emerge to a specific creature and the emergence action you wish to use requires you to target a creature or area, the creature you emerge to must be a target or included in the area of the effect. Likewise, they cannot be targeted or are unaffected from being in its area of effect if something explicitly states they cannot be emerged to (such as recognising your Passing Disguise)."
+          },
+          "prophetic": {
+            "label": "Prophetic",
+            "description": "When you cast a spell with the prophetic trait, the spell slot, focus point, staff charge, or consumable item you use to cast the spell is not immediately expended. Instead, you either see the result of the spell first if there’s no duration, or wait until it ends if it has a duration. If the effect of the spell results in no tangible benefits or changes to outcomes (such as rolling an attack twice with a fortune spell but both rolls hit, being given a bonus or penalty that wouldn't be enough to change the outcome of a check, or using a detection spell that turns up with no results), the resource is not expended. If the spell has an effect that prevents it from being cast again or makes its target immune to it for a period of time, this prevention or immunity does not occur either when the resource is not expended."
+          },
+          "traversal": "Traversal"
+        }
+      }
+    }
+  },
+  "action": "manageModule",
+  "packs": [
+    {
+      "name": "actions",
+      "label": "Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "class-features",
+      "label": "Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats-feature-effects",
+      "label": "Feat/Feature Effects",
+      "path": "packs/feats-feature-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/Feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spell-effects",
+      "label": "Spell Effects",
+      "path": "packs/spell-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journal",
+      "label": "Messages from the Boundary Playtest",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Messages from the Boundary Playtest",
+      "sorting": "m",
+	  "color": "#035410",
+      "packs": [
+        "journal",
+		"actions",
+        "class-features",
+        "classes",
+        "feats-feature-effects",
+        "feats",
+        "spell-effects",
+        "spells"
+      ],
+      "folders": []
+    }
+  ]
+}
