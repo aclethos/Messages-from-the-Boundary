@@ -2,6 +2,9 @@
   "id": "messages-from-the-boundary-playtest",
   "title": "Messages from the Boundary Playtest by Southern Realm Games",
   "version": "1.0.0",
+  "url": "https://github.com/aclethos/Messages-from-the-Boundary",
+  "download": "https://github.com/aclethos/Messages-from-the-Boundary/releases/download/1.0.0/module.zip",
+  "manifest": "https://github.com/aclethos/Messages-from-the-Boundary/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
